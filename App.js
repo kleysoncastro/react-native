@@ -1,11 +1,8 @@
 import React from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Text,
-  StatusBar,
 } from 'react-native';
 
 import {
@@ -22,7 +19,7 @@ const App: () => React$Node = () => {
 
           <View style={styles.body}>
 
-          <Text style={styles.well}>Welcome to react</Text>  
+          <Text style={styles.well}>Welcome to react</Text>
 
       </View>
     </>
