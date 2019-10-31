@@ -1,13 +1,11 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { Text } from 'react-native';
 import { Container, Form, Input, SubmintButton } from './styles';
 
 export default function Main() {
   return (
     <>
       <Container>
-        <Text>hello</Text>
         <Form>
           <Input
             autoCorrect={false}
